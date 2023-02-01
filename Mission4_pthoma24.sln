@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission4_pthoma24", "Mission4_pthoma24\Mission4_pthoma24.csproj", "{B6337380-88A2-41DA-B99C-C9BDDBD969AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6337380-88A2-41DA-B99C-C9BDDBD969AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6337380-88A2-41DA-B99C-C9BDDBD969AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6337380-88A2-41DA-B99C-C9BDDBD969AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6337380-88A2-41DA-B99C-C9BDDBD969AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DE427E5-6166-41EC-98F8-C2076B6F43B9}
+	EndGlobalSection
+EndGlobal
