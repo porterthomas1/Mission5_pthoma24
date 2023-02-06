@@ -9,6 +9,7 @@ namespace Mission4_pthoma24.Models
     // Create Getters and Setters for each label in the from
     public class GradeModel
     {
+        // Create validation methods to require inputs that are between 0 and 100
         [Required]
         [Range(0, 100, ErrorMessage = "Grade must be between 0 and 100")]
         public string Assignments { get; set; }

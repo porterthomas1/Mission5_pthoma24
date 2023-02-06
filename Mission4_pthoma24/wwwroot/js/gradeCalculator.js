@@ -47,7 +47,7 @@ $("#calcGrade").click(function () {
         letterGrade = "E"
     }
 
-    // Return the final letter grade back to the cshtml file
+    // Return the final letter grade back as an alert window
     alert('Final Letter Grade: ' + letterGrade)
 
 });
