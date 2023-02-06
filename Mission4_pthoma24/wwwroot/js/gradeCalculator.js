@@ -1,26 +1,13 @@
-﻿// Without JQuery:
-
-/*
-document.getElementById("calcGrade").addEventListener("click", function () {
-    alert("Assignments: " + document.getElementById("percentAssignments").value +
-        ", Group Projects: " + document.getElementById("percentProjects").value +
-        ", Quizzes: " + document.getElementById("percentQuizzes").value +
-        ", Midterm Exam: " + document.getElementById("percentMidterm").value +
-        ", Final Exam: " + document.getElementById("percentFinal").value +
-        ", INTEX: " + document.getElementById("percentIntex").value);
-})*/
-
-
-// With JQuery:
+﻿// With JQuery:
 
 // Convert each value passed from the html file into type "int", multiply it by its respective grade weight, and add them all together
 $("#calcGrade").click(function () {
     numericGrade = (parseInt($("#percentAssignments").val()) * 0.5 +
-                    parseInt($("#percentProjects").val()) * 0.1 +
-                    parseInt($("#percentQuizzes").val())*0.1 +
-                    parseInt($("#percentMidterm").val())*0.1 +
-                    parseInt($("#percentFinal").val())*0.1 +
-                    parseInt($("#percentIntex").val()) * 0.1);
+        parseInt($("#percentProjects").val()) * 0.1 +
+        parseInt($("#percentQuizzes").val()) * 0.1 +
+        parseInt($("#percentMidterm").val()) * 0.1 +
+        parseInt($("#percentFinal").val()) * 0.1 +
+        parseInt($("#percentIntex").val()) * 0.1);
 
     // Deterimine letter grade based on final grade calculated above
     if (numericGrade >= 94) {
@@ -60,6 +47,21 @@ $("#calcGrade").click(function () {
         letterGrade = "E"
     }
 
-    // Return the final letter grade back to the html file
-    $("#letterGrade").html(letterGrade);
-})
+    // Return the final letter grade back to the cshtml file
+    alert('Final Letter Grade: ' + letterGrade)
+
+});
+
+// Without JQuery:
+
+/*
+document.getElementById("calcGrade").addEventListener("click", function () {
+    alert("Assignments: " + document.getElementById("percentAssignments").value +
+        ", Group Projects: " + document.getElementById("percentProjects").value +
+        ", Quizzes: " + document.getElementById("percentQuizzes").value +
+        ", Midterm Exam: " + document.getElementById("percentMidterm").value +
+        ", Final Exam: " + document.getElementById("percentFinal").value +
+        ", INTEX: " + document.getElementById("percentIntex").value);
+})*/
+
+
