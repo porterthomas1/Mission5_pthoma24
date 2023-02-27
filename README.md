@@ -11,3 +11,5 @@ Specific changes include adding a navigation bar, separating the grade calculato
 
 ![Screenshot 2023-02-27 134037](https://user-images.githubusercontent.com/103624496/221684158-2ed99515-ce4b-480b-82ea-9bd0a2598450.png)
 
+
+![Screenshot 2023-02-27 134055](https://user-images.githubusercontent.com/103624496/221684330-56ee11da-f00a-478c-b262-df90a7225aaa.png)
