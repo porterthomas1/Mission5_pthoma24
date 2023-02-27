@@ -5,4 +5,6 @@ This ASP.net exercise implements the MVC (model-view-controller) structure to th
 # Description
 Specific changes include adding a navigation bar, separating the grade calculator into its own page, and using javascript to display the final calculated grade message.
 
-*Note: ASP app will not view properly with github
+*Note: ASP app will not view properly with github (See screenshots below for website preview)
+
+# Website Preview
