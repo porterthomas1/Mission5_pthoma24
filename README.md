@@ -1,9 +1,8 @@
 # Mission5_pthoma24
 BYU Winter 2023
 
-# Overview
 This ASP.net exercise implements the MVC (model-view-controller) structure to the web app created in mission 4. Requriements included building a simple website with both bootstrap and custom CSS styling as well as incorporating a grade calculator with Javascript to the program (grade calculations were based off weighted factors of current IS course).
-# Description
+
 Specific changes include adding a navigation bar, separating the grade calculator into its own page, and using javascript to display the final calculated grade message.
 
 *Note: ASP app will not view properly with github (See screenshots below for website preview)
